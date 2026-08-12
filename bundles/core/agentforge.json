@@ -26,6 +26,15 @@
       "sourcePath": "agents/reviewer.md",
       "description": "Reviews implemented changes for correctness, regressions, risks, and missing validation.",
       "activation": "delegated"
+    },
+    {
+      "kind": "skill",
+      "id": "oneshot",
+      "name": "OneShot",
+      "sourcePath": "skills/oneshot/SKILL.md",
+      "description": "Implements one narrow, clearly defined change end to end with minimal scope and proportionate validation.",
+      "directoryPath": "skills/oneshot",
+      "entrypoint": "SKILL.md"
     }
   ]
 }
