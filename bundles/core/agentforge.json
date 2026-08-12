@@ -10,6 +10,14 @@
       "sourcePath": "agents/planner.md",
       "description": "Creates concrete, ordered implementation plans for requested changes.",
       "activation": "delegated"
+    },
+    {
+      "kind": "agent",
+      "id": "debugger",
+      "name": "Debugger",
+      "sourcePath": "agents/debugger.md",
+      "description": "Investigates failures systematically to identify root causes and minimal verified fixes.",
+      "activation": "delegated"
     }
   ]
 }
