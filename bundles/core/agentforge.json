@@ -44,6 +44,15 @@
       "description": "Analyzes complex decisions using evidence, explicit constraints, alternatives, risks, and validation criteria.",
       "directoryPath": "skills/deep-think",
       "entrypoint": "SKILL.md"
+    },
+    {
+      "kind": "skill",
+      "id": "challenge-plan",
+      "name": "Challenge Plan",
+      "sourcePath": "skills/challenge-plan/SKILL.md",
+      "description": "Challenges a plan or idea with targeted questions to resolve material decisions, assumptions, and trade-offs before execution.",
+      "directoryPath": "skills/challenge-plan",
+      "entrypoint": "SKILL.md"
     }
   ]
 }
