@@ -35,6 +35,15 @@
       "description": "Implements one narrow, clearly defined change end to end with minimal scope and proportionate validation.",
       "directoryPath": "skills/oneshot",
       "entrypoint": "SKILL.md"
+    },
+    {
+      "kind": "skill",
+      "id": "deep-think",
+      "name": "Deep Think",
+      "sourcePath": "skills/deep-think/SKILL.md",
+      "description": "Analyzes complex decisions using evidence, explicit constraints, alternatives, risks, and validation criteria.",
+      "directoryPath": "skills/deep-think",
+      "entrypoint": "SKILL.md"
     }
   ]
 }
