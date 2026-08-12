@@ -18,6 +18,14 @@
       "sourcePath": "agents/debugger.md",
       "description": "Investigates failures systematically to identify root causes and minimal verified fixes.",
       "activation": "delegated"
+    },
+    {
+      "kind": "agent",
+      "id": "reviewer",
+      "name": "Reviewer",
+      "sourcePath": "agents/reviewer.md",
+      "description": "Reviews implemented changes for correctness, regressions, risks, and missing validation.",
+      "activation": "delegated"
     }
   ]
 }
