@@ -71,6 +71,15 @@
       "description": "Creates or reuses a GitHub pull request from a verified branch after reviewing its commits, diff, and validation status.",
       "directoryPath": "skills/create-pr",
       "entrypoint": "SKILL.md"
+    },
+    {
+      "kind": "skill",
+      "id": "fix-pr-comments",
+      "name": "Fix PR Comments",
+      "sourcePath": "skills/fix-pr-comments/SKILL.md",
+      "description": "Reviews and addresses actionable pull request feedback with explicit classification, scoped changes, and traceable validation.",
+      "directoryPath": "skills/fix-pr-comments",
+      "entrypoint": "SKILL.md"
     }
   ]
 }
