@@ -62,6 +62,15 @@
       "description": "Creates a focused local Git commit containing only the intended changes after inspecting, validating, and staging them safely.",
       "directoryPath": "skills/commit",
       "entrypoint": "SKILL.md"
+    },
+    {
+      "kind": "skill",
+      "id": "create-pr",
+      "name": "Create PR",
+      "sourcePath": "skills/create-pr/SKILL.md",
+      "description": "Creates or reuses a GitHub pull request from a verified branch after reviewing its commits, diff, and validation status.",
+      "directoryPath": "skills/create-pr",
+      "entrypoint": "SKILL.md"
     }
   ]
 }
