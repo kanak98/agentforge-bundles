@@ -2,5 +2,14 @@
   "schemaVersion": 1,
   "name": "core",
   "version": "0.1.0",
-  "resources": []
+  "resources": [
+    {
+      "kind": "agent",
+      "id": "planner",
+      "name": "Planner",
+      "sourcePath": "agents/planner.md",
+      "description": "Creates concrete, ordered implementation plans for requested changes.",
+      "activation": "delegated"
+    }
+  ]
 }
