@@ -53,6 +53,15 @@
       "description": "Challenges a plan or idea with targeted questions to resolve material decisions, assumptions, and trade-offs before execution.",
       "directoryPath": "skills/challenge-plan",
       "entrypoint": "SKILL.md"
+    },
+    {
+      "kind": "skill",
+      "id": "commit",
+      "name": "Commit",
+      "sourcePath": "skills/commit/SKILL.md",
+      "description": "Creates a focused local Git commit containing only the intended changes after inspecting, validating, and staging them safely.",
+      "directoryPath": "skills/commit",
+      "entrypoint": "SKILL.md"
     }
   ]
 }
