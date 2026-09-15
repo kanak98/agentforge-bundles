@@ -2,9 +2,9 @@
   "bundles": [
     {
       "name": "core",
-      "version": "0.1.0",
-      "sha256": "c8e02a23e0fcacb36aa035a408abcdfda2a291de80d94789333bce9624e7b2b9",
-      "artifact": "https://github.com/kanak98/agentforge-bundles/releases/download/core-v0.1.0/core.afbundle",
+      "version": "0.1.1",
+      "sha256": "03e52a9fc4777579e1c7e8a6c2f80e5c3f4f7f917eddf34c5b86a9fc68c1e6ee",
+      "artifact": "https://github.com/kanak98/agentforge-bundles/releases/download/core-v0.1.1/core.afbundle",
       "bundlePath": "bundle"
     }
   ]
