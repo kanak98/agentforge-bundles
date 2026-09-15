@@ -80,6 +80,15 @@
       "description": "Reviews and addresses actionable pull request feedback with explicit classification, scoped changes, and traceable validation.",
       "directoryPath": "skills/fix-pr-comments",
       "entrypoint": "SKILL.md"
+    },
+    {
+      "kind": "skill",
+      "id": "apex",
+      "name": "Apex",
+      "sourcePath": "skills/apex/SKILL.md",
+      "description": "Runs adaptive APEX implementation with scoped delegation, durable checkpoints, risk-based tests and review, and proof-backed verification.",
+      "directoryPath": "skills/apex",
+      "entrypoint": "SKILL.md"
     }
   ]
 }
