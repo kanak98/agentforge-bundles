@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "name": "core",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "resources": [
     {
       "kind": "agent",
@@ -88,6 +88,15 @@
       "sourcePath": "skills/apex/SKILL.md",
       "description": "Runs adaptive APEX implementation with scoped delegation, durable checkpoints, risk-based tests and review, and proof-backed verification.",
       "directoryPath": "skills/apex",
+      "entrypoint": "SKILL.md"
+    },
+    {
+      "kind": "skill",
+      "id": "project-memory",
+      "name": "Project Memory",
+      "sourcePath": "skills/project-memory/SKILL.md",
+      "description": "Sets up, updates, reviews, repairs, compacts, and summarizes project memory files across coding-agent sessions.",
+      "directoryPath": "skills/project-memory",
       "entrypoint": "SKILL.md"
     }
   ]
