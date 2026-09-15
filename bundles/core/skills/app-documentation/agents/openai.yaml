@@ -1,0 +1,4 @@
+interface:
+  display_name: "App Documentation"
+  short_description: "Create clear application documentation"
+  default_prompt: "Use $app-documentation to create clear documentation for this application."

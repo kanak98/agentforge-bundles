@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "name": "core",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "resources": [
     {
       "kind": "agent",
@@ -97,6 +97,15 @@
       "sourcePath": "skills/project-memory/SKILL.md",
       "description": "Sets up, updates, reviews, repairs, compacts, and summarizes project memory files across coding-agent sessions.",
       "directoryPath": "skills/project-memory",
+      "entrypoint": "SKILL.md"
+    },
+    {
+      "kind": "skill",
+      "id": "app-documentation",
+      "name": "App Documentation",
+      "sourcePath": "skills/app-documentation/SKILL.md",
+      "description": "Creates, restructures, and reviews user-facing application documentation using Diataxis and verified product evidence.",
+      "directoryPath": "skills/app-documentation",
       "entrypoint": "SKILL.md"
     }
   ]
